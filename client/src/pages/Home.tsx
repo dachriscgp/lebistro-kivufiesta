@@ -13,7 +13,10 @@ import {
   X,
 } from "lucide-react";
 import logoBistro from '../assets/logo-le-bistro.png';
-import cocktailImg from '../assets/cocktail.jpg';
+import allImg from '../assets/DSC_8582.jpg';
+import placeDjs from '../assets/place-djs.jpg';
+import loungeVip from '../assets/lounge-vip.jpg';
+import holeCenter from '../assets/hole.jpg';
 
 
 
@@ -148,8 +151,8 @@ export default function Home() {
       <main>
         <section id="accueil" className="hero-section">
           <img
-            className="hero-image"
-            src={assets.hero}
+            className="hero-image opacity-20"
+            src={allImg}
             alt="Ambiance nocturne au bar du Bistro"
             fetchPriority="high"
           />
@@ -246,7 +249,7 @@ export default function Home() {
                 >
                   <div className="event-visual">
                     <img
-                      src={event.image}
+                      src={allImg}
                       alt={`${event.title}, ambiance au Bistro`}
                       loading="lazy"
                     />
@@ -291,7 +294,7 @@ export default function Home() {
           <div className="container vip-layout">
             <div className="vip-image-wrap">
               <img
-                src={assets.vip}
+                src={loungeVip}
                 alt="Lounge VIP avec service à table"
                 loading="lazy"
               />
@@ -361,7 +364,7 @@ export default function Home() {
             <div className="gallery-grid">
               <div className="gallery-tall">
                 <img
-                  src={assets.gallery}
+                  src={holeCenter}
                   alt="Foule dansant sous les lumières du club"
                   loading="lazy"
                 />
@@ -379,7 +382,7 @@ export default function Home() {
                 <span className="gallery-caption">Le Bistro — depuis Goma</span>
               </div>
               <div className="gallery-small">
-                <img src={assets.event} alt="DJ aux platines" loading="lazy" />
+                <img src={placeDjs} alt="DJ aux platines" loading="lazy" />
                 <span>02 / live set</span>
               </div>
             </div>
