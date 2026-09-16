@@ -32,7 +32,11 @@ img { max-width: 100%; display: block; }
 .site-header { position: fixed; z-index: 50; top: 0; left: 0; right: 0; display: flex; align-items: center; justify-content: space-between; padding: 1.1rem 1.25rem; transition: background .25s ease, padding .25s ease, backdrop-filter .25s ease; }
 .site-header--scrolled { background: rgba(17,19,15,.88); backdrop-filter: blur(16px); padding-block: .8rem; border-bottom: 1px solid rgba(255,255,255,.08); }
 .brand-mark { display: inline-flex; align-items: center; gap: .7rem; font-weight: 800; font-size: .76rem; letter-spacing: .18em; }
+
 .brand-mark img { width: 2.7rem; height: 2.7rem; border-radius: 50%; object-fit: cover; background: none; }
+
+.brand-mark img { width: 2.7rem; height: 2.7rem; border-radius: 50%; object-fit: cover; background: var(--lime); }
+
 .main-nav { display: none; align-items: center; gap: 1.8rem; font-size: .72rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 700; }
 .main-nav a { opacity: .75; transition: opacity .2s ease, color .2s ease; }
 .main-nav a:hover { opacity: 1; color: var(--lime); }
