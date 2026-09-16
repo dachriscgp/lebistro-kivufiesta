@@ -162,7 +162,7 @@ export default function Home() {
                 <span className="live-dot" /> Goma · RDC · Ouvert tard
               </p>
               <h1>
-                La nuit
+                La nuite
                 <br />
                 <em>commence</em>
                 <br />à table.
